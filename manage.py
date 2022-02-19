@@ -5,6 +5,7 @@ from startup.test import test
 from startup.stage import stage
 from startup.init import init
 from startup.defualt import default
+from startup.sandbox import sandbox
 
 
 def start():
@@ -22,6 +23,9 @@ def start():
 
     elif startup_mode == 'init':
         init(config[startup_mode])
+
+    elif startup_mode == 'sandbox':
+        sandbox(config[startup_mode])
 
     else:
         default()

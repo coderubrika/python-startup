@@ -54,5 +54,15 @@
                 "PY_ENV" : "init"
             }
         },
+        {
+            "name": "Sandbox",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PY_ENV" : "sandbox"
+            }
+        },
     ]
 }
