@@ -1,7 +1,13 @@
 ## How to startup
 
 1. Clone the template yourself and go into it `git clone https://github.com/coderubrika/python-startup.git && cd python-startup`
-2. 
+2. Create virtual environment
+    - For Windows `python -m venv venv`
+    - For Linux `python3 -m venv venv`
+4. Activate virtual environment
+    - For Windows `venv/Scripts/activate`
+    - For Linux `source venv/bin/activate`
+3. 
     - Install dependencies on Windows `pip install -r requrements.txt` 
     - Install dependencies on Linux `pip3 install -r requrements.txt` 
 
