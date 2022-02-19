@@ -12,7 +12,7 @@
     - Install dependencies on Linux `pip3 install -r requrements.txt` 
 
 - For VSCode you need install [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
-- For JetBrains you need apply virtual environment in `File/Settings/Project/Project Interpreter/Show All/+/Existing Environment` choose your create environment.
+- For JetBrains you need apply virtual environment in `File/Settings/Project/Project Interpreter/Show All/+/Existing Environment` choose your created environment.
 
 ## How to work with it
 
