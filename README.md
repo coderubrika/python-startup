@@ -26,7 +26,7 @@ your configuration, for example, to store network settings, database settings, a
  
  ## Uploading to your repository
  
-You can simply fork the repository, or create own repository run the following code in the terminal:
+You can simply fork the repository, or create own repository then run the following code in the terminal:
  
 `git remote remove origin`
  
